@@ -1,0 +1,30 @@
+*{
+    margin: 0   ;
+}
+.grid-container{
+    height: 100vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns:  50% 20% 20%;
+    grid-template-rows: 10vh 50vh;
+    justify-content: center;
+    gap: 05%;
+}
+
+.area01{
+    grid-column: 1 / 4;
+    background: firebrick;   
+}
+
+.area02{
+    background: black;
+}
+
+.area03{
+    background: blue;
+}
+
+.area04{
+    background: green;
+    
+}
