@@ -1,0 +1,28 @@
+*{
+    margin: 0   ;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 520px 200px 200px;
+    grid-template-rows: 100px 400px;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.area01{
+    grid-column: 1 / 4;
+    background: firebrick;   
+}
+
+.area02{
+    background: black;
+}
+
+.area03{
+    background: blue;
+}
+
+.area04{
+    background: green;
+    
+}
